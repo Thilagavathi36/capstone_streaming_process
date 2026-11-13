@@ -1,0 +1,31 @@
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Airflow generated files
+airflow.db
+airflow.cfg
+webserver_config.py
+airflow/logs/
+airflow/airflow.db
+airflow/airflow.cfg
+
+# Local generated files
+.last_order_id
+*.log
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
